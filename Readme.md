@@ -1,4 +1,4 @@
-#bitmath
+# bitmath
 
 This repository contains functions to perform various calculations and manipulations on variables
 to transform them or to quantify them.
