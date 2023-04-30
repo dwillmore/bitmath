@@ -90,13 +90,13 @@ void main()
 {
 	uint64_t a= 0xff00000000000000;
 
-	printf("a=%016lX\n", a);
+	printf("a=0x%016lX\n", a);
 	for(int x=63; x>=0; x--)
 		printf("%c%s", a&((uint64_t)1<<x)?'1':'0', x&7?"":"\n");
 
 	a=transpose64L(a);
 
-	printf("a=%016lX\n", a);
+	printf("a=0x%016lX\n", a);
 	for(int x=63; x>=0; x--)
 		printf("%c%s", a&((uint64_t)1<<x)?'1':'0', x&7?"":"\n");
 
